@@ -1,15 +1,15 @@
 {
   "grill": {
-    "host": "GMG_GRILL_HOST",
-    "port": "GMG_GRILL_PORT",
-    "tries": "GMG_GRILL_TRIES"
+    "host": "255.255.255.255",
+    "port": "8080",
+    "tries": "5"
   },
   "status": {
-    "pollingInterval": "GMG_STATUS_POLLING_INTERVAL"
+    "pollingInterval": "5000"
   },
   "alerts": {
     "slack": {
-      "webhookUrl": "GMG_ALERTS_SLACK_WEBHOOKURL"
+      "webhookUrl": "https://hooks.slack.com/services/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"
     }
   }
 }
